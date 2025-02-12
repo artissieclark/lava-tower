@@ -1,6 +1,3 @@
-player.onChat("run", function () {
-	
-})
 player.onChat("tower", function () {
     blocks.place(AIR, pos(0, 0, 0))
     loops.pause(100)
